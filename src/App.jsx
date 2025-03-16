@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Title from './components/Title';
 import About from './components/About';
 import Projects from './components/Projects';
+import Skill from "./components/Skill";
 
 function App() {
   return(
@@ -24,6 +25,8 @@ function App() {
         symbol = "#"
         text = "Skills"
        />
+        <Skill />
+
        <Title
         symbol = "#"
         text = "Contacts"

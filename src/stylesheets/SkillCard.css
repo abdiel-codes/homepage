@@ -1,0 +1,8 @@
+.skill-card-title-container {
+    border: 2px solid wheat;
+}
+
+.skill-card-text-container {
+    border: 2px solid wheat;
+    border-top: none;
+}

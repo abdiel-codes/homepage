@@ -1,0 +1,13 @@
+.skill-container {
+    max-height: 400px;
+    max-width: 85%;
+    display: flex;
+    justify-content: space-between;
+    color: wheat;
+}
+
+.skill-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
