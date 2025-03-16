@@ -17,8 +17,3 @@
     align-items: center;
     gap: 0px 10px;
 }
-
-.second-section p:hover {
-    color: yellow;
-    cursor: pointer;
-}

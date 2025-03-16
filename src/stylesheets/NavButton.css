@@ -1,0 +1,11 @@
+.second-section .button:hover {
+    color: yellow;
+    cursor: pointer;
+}
+
+.button {
+    border: none;
+    background-color: rgb(0, 50, 0);
+    color: wheat;
+    cursor: pointer;
+}

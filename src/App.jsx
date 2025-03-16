@@ -16,22 +16,26 @@ function App() {
        <Header />
        <Title
         symbol = "#" 
-        text = "About me" />
+        text = "About-me" 
+        id = "about-me" />
        <About />
        <Title
         symbol = "#"
         text = "Projects"
+        id = "projects"
        />
        <Projects />
        <Title
         symbol = "#"
         text = "Skills"
+        id = "skills"
        />
         <Skill />
 
        <Title
         symbol = "#"
         text = "Contacts"
+        id = "contact"
        />
        <Contact />
        <Footer />

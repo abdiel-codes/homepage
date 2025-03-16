@@ -2,7 +2,7 @@ import "../stylesheets/Header.css";
 
 function Header() {
     return (
-        <div className="header-container">
+        <div className="header-container" id = "home">
             <div className="text-container">
                 <h1 className="title">
                     My name is Abdiel and i'm a full-stack developer
