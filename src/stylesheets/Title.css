@@ -1,0 +1,21 @@
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80%;
+    padding: 20px 10px;
+}
+
+.title-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hr {
+    flex-grow: 1;
+    border: none;
+    height: 2px;
+    background-color: wheat;
+    margin-left: 10px;
+}

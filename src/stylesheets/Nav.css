@@ -1,0 +1,24 @@
+.navigation-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    background-color: rgb(0, 50, 0);
+    color: wheat;
+}
+
+.first-section {
+    display: flex;
+    align-items: center;
+    gap: 0px 10px;
+}
+
+.second-section {
+    display: flex;
+    align-items: center;
+    gap: 0px 10px;
+}
+
+.second-section p:hover {
+    color: yellow;
+    cursor: pointer;
+}
