@@ -6,6 +6,7 @@ import Title from './components/Title';
 import About from './components/About';
 import Projects from './components/Projects';
 import Skill from "./components/Skill";
+import Contact from './components/Contact';
 
 function App() {
   return(
@@ -31,6 +32,7 @@ function App() {
         symbol = "#"
         text = "Contacts"
        />
+       <Contact />
     </>
   );
 }

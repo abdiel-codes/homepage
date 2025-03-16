@@ -1,0 +1,25 @@
+.contact-container {
+    color: wheat;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 40px;
+}
+
+.contact-text {
+    max-width: 50%;
+}
+
+.contact-card {
+    max-width: 50%;
+    border: 2px solid yellow;
+}
+
+.contact-icon-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-text {
+    display: flex;
+    gap: 5px;
+}
