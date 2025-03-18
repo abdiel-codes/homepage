@@ -6,8 +6,18 @@
     color: wheat;
 }
 
+.interactive-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+}
+
 .skill-card-container {
+    flex: 1;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    margin-left: 40px;
 }
