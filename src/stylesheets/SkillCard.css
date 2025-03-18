@@ -6,3 +6,7 @@
     border: 2px solid wheat;
     border-top: none;
 }
+
+.card-skill-container:hover {
+    transform: scale(1.1);
+}

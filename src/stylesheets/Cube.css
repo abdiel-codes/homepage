@@ -2,11 +2,10 @@
     perspective: 1000px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     height: 100%;
     width: 100%;
-    gap: 60px;
 }
 
 .cube {
@@ -16,40 +15,54 @@
     transform-style: preserve-3d;
 }
 
+.cube-button {
+    background-color: #121913;
+    border: 2px solid wheat;
+    color: wheat;
+    padding: 10px;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.cube-button:hover {
+    transform: scale(1.1);
+}
+
 .animated {
     animation: rotateCube 10s infinite linear;
 }
 
 .face {
     position: absolute;
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     background-color: rgba(255, 255, 255, 0.2);
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid wheat;
+    border: 2px solid #ECF39E;
+    box-shadow: 0 0 20px #ECF39E;
     font-size: 20px;
     font-weight: bold;
 }
 
-.face {
-    transform: rotateY(0deg) translateZ(75px)
+.front {
+    transform: rotateY(0deg) translateZ(90px)
 }
 .back {
-    transform: rotateY(180deg) translateZ(75px);
+    transform: rotateY(180deg) translateZ(90px);
 }
 .right {
-    transform: rotateY(90deg) translateZ(75px);
+    transform: rotateY(90deg) translateZ(90px);
 }
 .left {
-    transform: rotateY(-90deg) translateZ(75px);
+    transform: rotateY(-90deg) translateZ(90px);
 }
 .top {
-    transform: rotateX(90deg) translateZ(75px);
+    transform: rotateX(90deg) translateZ(90px);
 }
 .bottom {
-    transform: rotateX(-90deg) translateZ(75px);
+    transform: rotateX(-90deg) translateZ(90px);
 }
 
 @keyframes rotateCube {
