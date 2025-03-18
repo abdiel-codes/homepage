@@ -2,7 +2,7 @@ import "../stylesheets/NavButton.css";
 
 function NavButton (props) {
     return (
-        <button className={props.class} onClick={() => props.link()}>{props.name}</button>
+        <button className={props.class} onClick={() => props.link()}><span>{props.symbol}</span>{props.name}</button>
     );
 }
 

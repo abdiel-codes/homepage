@@ -16,31 +16,36 @@ function Nav(props) {
             <div className="second-section">
                 <NavButton
                     class = "home-button button"
-                    name = "#Home"
+                    symbol = "#"
+                    name = "Home"
                     link = {() => navigateTo("home")}
                 />
 
                 <NavButton
                     class = "about-me-button button"
-                    name = "#About-me"
+                    symbol = "#"
+                    name = "About-me"
                     link = {() => navigateTo("about-me")}
                 />
 
                 <NavButton
                     class = "projects-button button"
-                    name = "#Projects"
+                    symbol = "#"
+                    name = "Projects"
                     link = {() => navigateTo("projects")}
                 />
 
                 <NavButton
                     class = "skills-button button"
-                    name = "#Skills"
+                    symbol = "#"
+                    name = "Skills"
                     link = {() => navigateTo("skills")}
                 />
 
                 <NavButton
                     class = "contact-button button"
-                    name = "#Contact"
+                    symbol = "#"
+                    name = "Contact"
                     link = {() => navigateTo("contact")}
                 />
             </div>

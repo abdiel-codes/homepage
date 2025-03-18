@@ -5,7 +5,7 @@ function Header(props) {
         <div className="header-container" id = "home">
             <div className="text-container">
                 <h1 className="title">
-                    Hi, I'm <span className="highlight">Abdiel Flores</span>, a <span className="highlight">Full-Stack</span> Developer passionate about building <span>interactive</span> and <span className="">scalable applications.</span>  
+                    Hi, I'm <span>Abdiel Flores</span>, a <span>Full-Stack</span> Developer passionate about building <span>interactive</span> and <span>scalable applications.</span>  
                 </h1>
                 <p className="text">
                     Passionate about <span>coding</span> and <span>problem-solving</span>, I build <span>scalable</span> and <span>engaging</span> web experiences using modern technologies like <span>React</span> and <span>JavaScript</span>.
