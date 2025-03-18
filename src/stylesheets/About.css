@@ -1,6 +1,10 @@
 .about-container {
     color: wheat;
     margin-left: 120px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .about-title {

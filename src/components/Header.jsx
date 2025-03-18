@@ -1,14 +1,14 @@
 import "../stylesheets/Header.css";
 
-function Header() {
+function Header(props) {
     return (
         <div className="header-container" id = "home">
             <div className="text-container">
                 <h1 className="title">
-                    My name is Abdiel and i'm a full-stack developer
+                    Hi, I'm <span className="highlight">Abdiel Flores</span>, a <span className="highlight">Full-Stack</span> Developer passionate about building <span>interactive</span> and <span className="">scalable applications.</span>  
                 </h1>
                 <p className="text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio repellendus id voluptatem nisi iusto molestiae quas ab accusantium. Omnis magni accusamus aliquam tempore? Cumque quis perspiciatis quaerat eaque illo amet.
+                    Passionate about <span>coding</span> and <span>problem-solving</span>, I build <span>scalable</span> and <span>engaging</span> web experiences using modern technologies like <span>React</span> and <span>JavaScript</span>.
                 </p>
             </div>
             <div className="photo-container">

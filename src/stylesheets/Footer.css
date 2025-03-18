@@ -5,4 +5,5 @@
     align-items: center;
     border-top: 2px solid wheat;
     margin-top: 20px;
+    min-height: 150px;
 }
