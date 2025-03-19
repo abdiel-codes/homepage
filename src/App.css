@@ -6,8 +6,7 @@
 }
 
 body{
-    width: 100vw;
-    height: 100vw;
+    
     display: flex;
     flex-direction: column;
     background-color: #121913;
@@ -34,7 +33,7 @@ span {
   }
 
   .click-effect {
-    position: absolute;
+    position: fixed;
     pointer-events: none;
   }
   

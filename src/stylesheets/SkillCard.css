@@ -1,3 +1,9 @@
+.card-skill-container:hover .skill-card-title-container,
+.card-skill-container:hover .skill-card-text-container {
+    border-color: #ECF39E;
+    box-shadow: 0 0 10px #ECF39E;
+}
+
 .skill-card-title-container {
     border: 2px solid wheat;
 }
@@ -6,6 +12,11 @@
     border: 2px solid wheat;
     border-top: none;
 }
+
+.card-skill-container {
+    transition: transform 0.3s ease;
+}
+
 
 .card-skill-container:hover {
     transform: scale(1.1);
