@@ -2,8 +2,7 @@
     color: wheat;
     display: flex;
     justify-content: space-around;
-    margin: 0px 40px;
-    min-height: 200px;
+    min-height: 40vh;
 }
 
 .contact-text {

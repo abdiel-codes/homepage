@@ -1,19 +1,25 @@
-.navigation-container {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 10px;
-    background-color: #132A13;
-}
+    .navigation-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 10px;
+        background-color: #132A13;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        width: 100%;
+        max-width: 100%; 
+        box-sizing: border-box;
+    }
 
-.first-section {
-    display: flex;
-    align-items: center;
-    gap: 0px 10px;
-    color: #ECF39E;
-}
+    .first-section {
+        display: flex;
+        align-items: center;
+        gap: 0px 10px;
+        color: #ECF39E;
+    }
 
-.second-section {
-    display: flex;
-    align-items: center;
-    gap: 0px 10px;
-}
+    .second-section {
+        display: flex;
+        align-items: center;
+        gap: 0px 10px;
+    }

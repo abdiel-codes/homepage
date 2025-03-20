@@ -3,6 +3,7 @@ import NavButton from "./NavButton";
 
 function Nav(props) {
     const navigateTo = (id) => {
+
         const section = document.getElementById(id);
         section?.scrollIntoView({behavior:"smooth"});
     };
@@ -49,6 +50,7 @@ function Nav(props) {
                     link = {() => navigateTo("contact")}
                 />
             </div>
+
         </div>
     );
 };
