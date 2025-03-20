@@ -1,11 +1,33 @@
 .project-container {
     width: 100%;
-    height: 80vh;
+    min-height: 80vh;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     padding-left: 20px;
     box-sizing: border-box;
+}
+
+.description-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    padding: 0px 10px;
+}
+
+.description-container button {
+    padding: 5px 20px;
+    background-color: #121913;
+    color: white;
+    border: 2px solid #4F772D;
+    margin-bottom: 10px;
+}
+
+.description-container button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .card {

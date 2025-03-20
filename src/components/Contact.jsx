@@ -4,11 +4,11 @@ function Contact() {
     return(
         <div className="contact-container">
             <div className="contact-text">
-                I'm interested in freelance opportunities.
-                However, if you have other request or question, don't hestitate to contact me
+                I'm open to both full-time and freelance opportunities.  
+                If you have a project, a job offer, or just a question, feel free to reach out.
             </div>
             <div className="contact-card">
-                <p>Contact me here</p>
+                <p>Get in touch</p>
                 <div className="contact-icon-container">
                     <div className="icon-text">
                         <p>icon</p>

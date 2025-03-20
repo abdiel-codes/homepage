@@ -1,9 +1,9 @@
 .footer-container {
-    color: wheat;
+    color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-top: 2px solid wheat;
+    border-top: 2px solid white;
     margin-top: 20px;
     min-height: 30vh;
 }

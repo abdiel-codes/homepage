@@ -1,9 +1,7 @@
 .card-container {
     display: flex;
     flex-direction: column;
-    color: wheat;
-    max-width: 400px;
-    max-height: 500px;
+    color: white;    
 }
 
 .image-container {
@@ -23,8 +21,8 @@
     flex: 1;
     max-width: 100%;
     max-height: 100%;
-    border-left: 2px solid wheat;
-    border-right: 2px solid wheat;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
 }
 
 .description-container {

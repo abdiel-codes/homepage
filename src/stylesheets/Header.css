@@ -6,6 +6,7 @@
     width: 100%;
     padding: 0 20px;
     box-sizing: border-box;
+    color: white;
 }
 
 .text-container {
@@ -25,12 +26,8 @@
 
 .photo-container {
     flex: 1;
-    color: wheat;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.text-container h1, .text-container p{
-    color: wheat;
-}
