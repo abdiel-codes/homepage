@@ -1,6 +1,6 @@
 import "../stylesheets/Header.css";
 
-function Header(props) {
+function Header() {
     return (
         <div className="header-container" id = "home">
             <div className="text-container">

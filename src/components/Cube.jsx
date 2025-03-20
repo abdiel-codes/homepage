@@ -12,7 +12,7 @@ function Cube() {
             ([entry]) => {
                 setIsVisible(entry.isIntersecting);
             },
-            { threshold: 0.2 } // Se activa cuando al menos el 20% del cubo es visible
+            { threshold: 0.2 }
         );
 
         if (cubeRef.current) {
@@ -37,20 +37,24 @@ function Cube() {
     };
 
     return (
-        <div className="cube-container" onMouseMove={handleMove} ref={cubeRef}>
-            {isVisible && (
-                <div
-                    className={`cube ${isAnimated ? "animated" : ""}`}
-                    style={{ transform: `rotateX(${rotation.y}deg) rotateY(${rotation.x}deg)` }}
-                >
-                    <div className="face front">JavaScript</div>
-                    <div className="face back">React</div>
-                    <div className="face right">SQL</div>
-                    <div className="face left">CSS</div>
-                    <div className="face top">HTML</div>
-                    <div className="face bottom">Git</div>
-                </div>
-            )}
+        <div
+            className={`cube-container ${isVisible ? "visible" : ""}`}
+            onMouseMove={handleMove}
+            ref={cubeRef}
+        >
+            <div
+                className={`cube ${isAnimated ? "animated" : ""}`}
+                style={{
+                    transform: `rotateX(${rotation.y}deg) rotateY(${rotation.x}deg)`
+                }}
+            >
+                <div className="face front">JavaScript</div>
+                <div className="face back">React</div>
+                <div className="face right">SQL</div>
+                <div className="face left">CSS</div>
+                <div className="face top">HTML</div>
+                <div className="face bottom">Git</div>
+            </div>
             <div className="cube-button-container" onClick={stopRotation}>
                 <button className="cube-button">{`${isAnimated ? "Stop Rotation" : "Rotate"}`}</button>
             </div>

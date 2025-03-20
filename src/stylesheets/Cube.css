@@ -6,6 +6,8 @@
     align-items: center;
     height: 100vh;
     width: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-out;
 }
 
 .cube {
@@ -14,6 +16,10 @@
     height: 180px;
     position: relative;
     transform-style: preserve-3d;
+}
+
+.cube-container.visible {
+    opacity: 1;
 }
 
 .cube-button {

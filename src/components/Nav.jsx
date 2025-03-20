@@ -1,7 +1,7 @@
 import "../stylesheets/Nav.css";
 import NavButton from "./NavButton";
 
-function Nav(props) {
+function Nav() {
     const navigateTo = (id) => {
 
         const section = document.getElementById(id);
